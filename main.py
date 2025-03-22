@@ -165,3 +165,7 @@ with tab1:
 
         except Exception as e:
             st.error(f"Erro ao ler o arquivo: {e}")
+
+with tab2:
+    st.write('Processar arquivos XLSX')
+    st.write('Em breve...')
