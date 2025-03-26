@@ -106,7 +106,7 @@ with tab1:
                         novo_tipo = st.selectbox(
                             f"Tipo de dado para '{coluna}'",
                             options=tipos_dados,
-                            index=tipos_dados.index(str(df[coluna].dtype)),
+                            index='str' if tipos_dados.index(str(df[coluna].dtype)) == 'object' else tipos_dados.index(str(df[coluna].dtype)),
                             key=f"tipo_{coluna}"
                         )
                         novos_tipos[coluna] = novo_tipo
