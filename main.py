@@ -66,7 +66,7 @@ with tab1:
                 conn.close()
             
             else:
-                st.error('Extensão inválida!')
+                st.error(f'Extensão {extensao} inválida!')
                 st.stop()
 
 
