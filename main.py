@@ -86,7 +86,7 @@ with tab1:
                 st.write("Altere o nome das colunas ou seus tipos de dados:")
 
                 # Lista de tipos de dados suportados
-                tipos_dados = ['str', 'int64', 'float64', 'bool', 'datetime64[ns]']
+                tipos_dados = ['object', 'str', 'int64', 'float64', 'bool', 'datetime64[ns]']
 
                 # Dicionário para armazenar as alterações
                 novas_colunas = {}
