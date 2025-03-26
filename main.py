@@ -48,7 +48,7 @@ with tab1:
             if extensao == 'csv':
                 df = pd.read_csv(file)
             
-            elif extensao == 'xlsx':
+            elif extensao.lower() == 'xlsx':
                 df = pd.read_excel(file)
             
             elif extensao == 'json':
